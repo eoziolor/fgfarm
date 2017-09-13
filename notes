@@ -1,0 +1,10 @@
+9-11-17
+Copied the vcf called on fhet genome from fgran individuals from the kodiak cluster (with the .tbi index file)
+created a git repo
+
+9-12-17
+after working the normal workflow on admixture added the line:
+
+cat all_scaf.bim | awk '{gsub("\\.1","");print}'
+
+got rid of the .1 at the end of the scaffold names in het

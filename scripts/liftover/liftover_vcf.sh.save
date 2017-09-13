@@ -1,0 +1,7 @@
+#!bin/bash
+
+#programs and files
+jeff_gatk='java -jar /home/jmiller1/GenomeAnalysisTK.jar'
+my_vcf=/home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+jeff_chain=/home/jmiller1/bin/code/ALLMAPS_OUT/unsplit_merge.chain
+

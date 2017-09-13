@@ -1,0 +1,36 @@
+==========================================
+SLURM_JOB_ID = 14897019
+SLURM_NODELIST = c8-88
+==========================================
+Module slurm/16.05.8 loaded 
+Module openmpi/2.0.1 loaded 
+Module JAVA 1.8 Loaded.
+Improperly specified VM option 'ParallelGCThreads=$SLURM_JOB_CPUS_PER_NODE'
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+Improperly specified VM option 'ParallelGCThreads=$SLURM_JOB_CPUS_PER_NODE'
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+srun: error: c8-88: tasks 0-1: Exited with exit code 1
+
+===========================================================================
+Job Finished
+
+Name                : liftover
+User                : eoziolor
+Partition           : med
+Nodes               : c8-88
+Cores               : 16
+State               : FAILED,RUNNING
+Submit              : 2017-09-12T18:29:40
+Start               : 2017-09-12T18:29:42
+End                 : --
+Reserved walltime   : 02:00:00
+Used walltime       : 00:00:03
+Used CPU time       : --
+% User (Computation): 40.35%
+% System (I/O)      : 59.65%
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  (c8-88)
+Max Disk Write      : 0.00  (c8-88)
+Max Disk Read       : 245.76K (c8-88)
