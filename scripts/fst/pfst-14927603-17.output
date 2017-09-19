@@ -1,0 +1,48 @@
+==========================================
+SLURM_JOB_ID = 14927620
+SLURM_NODELIST = c9-95
+==========================================
+Module slurm/16.05.8 loaded 
+Module openmpi/2.0.1 loaded 
+17
+SJ GB
+/home/eoziolor/fgran/data/fst/SJ.GB.wcfst.bgz
+/home/eoziolor/fgran/data/fst/SJ.GB.pfst.bgz
+264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287
+29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76
+SJ.GB.wcfst.bgz
+SJ.GB.pfst.bgz
+INFO: there are 24 individuals in the target
+INFO: target ids: 264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287
+INFO: there are 48 individuals in the background
+INFO: background ids: 29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76
+INFO: file: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: setting genotype likelihood format to: GL
+INFO: There are 24 individuals in the target
+INFO: target ids: 264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287
+INFO: There are 48 individuals in the background
+INFO: background ids: 29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76
+INFO: File: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: genotype likelihoods set to: GL
+
+===========================================================================
+Job Finished
+
+Name                : pfst
+User                : eoziolor
+Partition           : med
+Nodes               : c9-95
+Cores               : 16
+State               : RUNNING
+Submit              : 2017-09-13T13:55:06
+Start               : 2017-09-13T13:55:06
+End                 : --
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:02
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  ()
+Max Disk Write      : 0.00  ()
+Max Disk Read       : 0.00  ()

@@ -1,0 +1,48 @@
+==========================================
+SLURM_JOB_ID = 14927609
+SLURM_NODELIST = c8-96
+==========================================
+Module slurm/16.05.8 loaded 
+Module openmpi/2.0.1 loaded 
+6
+BB SP
+/home/eoziolor/fgran/data/fst/BB.SP.wcfst.bgz
+/home/eoziolor/fgran/data/fst/BB.SP.pfst.bgz
+239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191
+BB.SP.wcfst.bgz
+BB.SP.pfst.bgz
+INFO: there are 24 individuals in the target
+INFO: target ids: 239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+INFO: there are 48 individuals in the background
+INFO: background ids: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191
+INFO: file: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: setting genotype likelihood format to: GL
+INFO: There are 24 individuals in the target
+INFO: target ids: 239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+INFO: There are 48 individuals in the background
+INFO: background ids: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191
+INFO: File: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: genotype likelihoods set to: GL
+
+===========================================================================
+Job Finished
+
+Name                : pfst
+User                : eoziolor
+Partition           : med
+Nodes               : c8-96
+Cores               : 16
+State               : RUNNING
+Submit              : 2017-09-13T13:55:06
+Start               : 2017-09-13T13:55:06
+End                 : --
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:02
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  ()
+Max Disk Write      : 0.00  ()
+Max Disk Read       : 0.00  ()

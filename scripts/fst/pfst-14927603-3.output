@@ -1,0 +1,50 @@
+==========================================
+SLURM_JOB_ID = 14927606
+SLURM_NODELIST = c8-93
+==========================================
+Module slurm/16.05.8 loaded 
+Module openmpi/2.0.1 loaded 
+3
+BB SJ
+/home/eoziolor/fgran/data/fst/BB.SJ.wcfst.bgz
+/home/eoziolor/fgran/data/fst/BB.SJ.pfst.bgz
+239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287
+BB.SJ.wcfst.bgz
+BB.SJ.pfst.bgz
+INFO: there are 24 individuals in the target
+INFO: target ids: 239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+INFO: there are 24 individuals in the background
+INFO: background ids: 264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287
+INFO: file: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: setting genotype likelihood format to: GL
+FATAL: unknown genotype: 0
+INFO: There are 24 individuals in the target
+INFO: target ids: 239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+INFO: There are 24 individuals in the background
+INFO: background ids: 264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287
+INFO: File: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: genotype likelihoods set to: GL
+FATAL: unknown genotype: 0
+
+===========================================================================
+Job Finished
+
+Name                : pfst
+User                : eoziolor
+Partition           : med
+Nodes               : c8-93
+Cores               : 16
+State               : RUNNING
+Submit              : 2017-09-13T13:55:06
+Start               : 2017-09-13T13:55:06
+End                 : --
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:02
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  ()
+Max Disk Write      : 0.00  ()
+Max Disk Read       : 0.00  ()

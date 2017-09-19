@@ -1,0 +1,48 @@
+==========================================
+SLURM_JOB_ID = 14927618
+SLURM_NODELIST = c9-93
+==========================================
+Module slurm/16.05.8 loaded 
+Module openmpi/2.0.1 loaded 
+15
+PB SP
+/home/eoziolor/fgran/data/fst/PB.SP.wcfst.bgz
+/home/eoziolor/fgran/data/fst/PB.SP.pfst.bgz
+121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167
+5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191
+PB.SP.wcfst.bgz
+PB.SP.pfst.bgz
+INFO: there are 47 individuals in the target
+INFO: target ids: 121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167
+INFO: there are 48 individuals in the background
+INFO: background ids: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191
+INFO: file: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: setting genotype likelihood format to: GL
+INFO: There are 47 individuals in the target
+INFO: target ids: 121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167
+INFO: There are 48 individuals in the background
+INFO: background ids: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191
+INFO: File: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: genotype likelihoods set to: GL
+
+===========================================================================
+Job Finished
+
+Name                : pfst
+User                : eoziolor
+Partition           : med
+Nodes               : c9-93
+Cores               : 16
+State               : RUNNING
+Submit              : 2017-09-13T13:55:06
+Start               : 2017-09-13T13:55:06
+End                 : --
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:02
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  ()
+Max Disk Write      : 0.00  ()
+Max Disk Read       : 0.00  ()

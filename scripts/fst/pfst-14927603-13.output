@@ -1,0 +1,48 @@
+==========================================
+SLURM_JOB_ID = 14927616
+SLURM_NODELIST = c9-91
+==========================================
+Module slurm/16.05.8 loaded 
+Module openmpi/2.0.1 loaded 
+13
+PB BNP
+/home/eoziolor/fgran/data/fst/PB.BNP.wcfst.bgz
+/home/eoziolor/fgran/data/fst/PB.BNP.pfst.bgz
+121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167
+192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,246
+PB.BNP.wcfst.bgz
+PB.BNP.pfst.bgz
+INFO: there are 47 individuals in the target
+INFO: target ids: 121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167
+INFO: there are 48 individuals in the background
+INFO: background ids: 192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,246
+INFO: file: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: setting genotype likelihood format to: GL
+INFO: There are 47 individuals in the target
+INFO: target ids: 121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167
+INFO: There are 48 individuals in the background
+INFO: background ids: 192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,246
+INFO: File: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: genotype likelihoods set to: GL
+
+===========================================================================
+Job Finished
+
+Name                : pfst
+User                : eoziolor
+Partition           : med
+Nodes               : c9-91
+Cores               : 16
+State               : RUNNING
+Submit              : 2017-09-13T13:55:06
+Start               : 2017-09-13T13:55:06
+End                 : --
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:02
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  ()
+Max Disk Write      : 0.00  ()
+Max Disk Read       : 0.00  ()

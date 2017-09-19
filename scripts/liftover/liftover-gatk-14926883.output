@@ -1,0 +1,57 @@
+==========================================
+SLURM_JOB_ID = 14926883
+SLURM_NODELIST = c11-70
+==========================================
+Module slurm/16.05.8 loaded 
+Module openmpi/2.0.1 loaded 
+Module JAVA 1.8 Loaded.
+INFO  13:24:47,716 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  13:24:47,718 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.3-0-g37228af, Compiled 2014/10/24 01:07:22 
+INFO  13:24:47,718 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  13:24:47,718 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  13:24:47,721 HelpFormatter - Program Args: -T LiftoverVariants -V /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz -o /home/eoziolor/fgran/data/varcall/chrom_fgfh.vcf -chain /home/jmiller1/bin/code/ALLMAPS_OUT/unsplit_merge.chain -dict /home/jmiller1/bin/code/ALLMAPS_OUT/unsplit_merge.dict -R /home/jmiller1/bin/code/ALLMAPS_OUT/unsplit_merge.fasta 
+INFO  13:24:47,728 HelpFormatter - Executing as eoziolor@c11-70 on Linux 3.13.0-126-generic amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_20-b26. 
+INFO  13:24:47,728 HelpFormatter - Date/Time: 2017/09/13 13:24:47 
+INFO  13:24:47,728 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  13:24:47,728 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  13:24:48,040 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  13:24:48,450 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  13:24:49,604 GATKRunReport - Uploaded run statistics report to AWS S3 
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR A USER ERROR has occurred (version 3.3-0-g37228af): 
+##### ERROR
+##### ERROR This means that one or more arguments or inputs in your command are incorrect.
+##### ERROR The error message below tells you what is the problem.
+##### ERROR
+##### ERROR If the problem is an invalid argument, please check the online documentation guide
+##### ERROR (or rerun your command with --help) to view allowable command-line arguments for this tool.
+##### ERROR
+##### ERROR Visit our website and forum for extensive documentation and answers to 
+##### ERROR commonly asked questions http://www.broadinstitute.org/gatk
+##### ERROR
+##### ERROR Please do NOT post this error to the GATK forum unless you have really tried to fix it yourself.
+##### ERROR
+##### ERROR MESSAGE: Unable to parse header with error: For input string: "R", for input source: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+##### ERROR ------------------------------------------------------------------------------------------
+
+===========================================================================
+Job Finished
+
+Name                : liftover-gatk
+User                : eoziolor
+Partition           : med
+Nodes               : c11-70
+Cores               : 16
+State               : RUNNING
+Submit              : 2017-09-13T13:24:43
+Start               : 2017-09-13T13:24:45
+End                 : --
+Reserved walltime   : 04:00:00
+Used walltime       : 00:00:04
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  ()
+Max Disk Write      : 0.00  ()
+Max Disk Read       : 0.00  ()

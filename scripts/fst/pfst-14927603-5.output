@@ -1,0 +1,48 @@
+==========================================
+SLURM_JOB_ID = 14927608
+SLURM_NODELIST = c8-95
+==========================================
+Module slurm/16.05.8 loaded 
+Module openmpi/2.0.1 loaded 
+5
+BB GB
+/home/eoziolor/fgran/data/fst/BB.GB.wcfst.bgz
+/home/eoziolor/fgran/data/fst/BB.GB.pfst.bgz
+239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76
+BB.GB.wcfst.bgz
+BB.GB.pfst.bgz
+INFO: there are 24 individuals in the target
+INFO: target ids: 239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+INFO: there are 48 individuals in the background
+INFO: background ids: 29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76
+INFO: file: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: setting genotype likelihood format to: GL
+INFO: There are 24 individuals in the target
+INFO: target ids: 239,240,241,242,243,244,245,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263
+INFO: There are 48 individuals in the background
+INFO: background ids: 29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76
+INFO: File: /home/eoziolor/fgran/data/varcall/filtered_fgfh.vcf.bgz
+INFO: genotype likelihoods set to: GL
+
+===========================================================================
+Job Finished
+
+Name                : pfst
+User                : eoziolor
+Partition           : med
+Nodes               : c8-95
+Cores               : 16
+State               : COMPLETED
+Submit              : 2017-09-13T13:55:06
+Start               : 2017-09-13T13:55:06
+End                 : 2017-09-13T13:55:07
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:01
+Used CPU time       : --
+% User (Computation): 50.46%
+% System (I/O)      : 49.24%
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  (c8-95)
+Max Disk Write      : 0.00  (c8-95)
+Max Disk Read       : 0.00  (c8-95)
