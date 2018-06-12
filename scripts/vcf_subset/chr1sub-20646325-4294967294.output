@@ -1,0 +1,29 @@
+==========================================
+SLURM_JOB_ID = 20646325
+SLURM_NODELIST = c9-75
+==========================================
+Module slurm/17.11.5 loaded 
+Module openmpi/3.0.1 loaded 
+Module gcc/7.3.0 loaded 
+
+===========================================================================
+Job Finished
+
+Name                : chr1sub
+User                : eoziolor
+Partition           : med
+Nodes               : c9-75
+Cores               : 16
+State               : COMPLETED
+Submit              : 2018-06-07T22:46:54
+Start               : 2018-06-07T22:46:55
+End                 : 2018-06-07T22:51:19
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:04:24
+Used CPU time       :   00:04:51
+% User (Computation): 97.23%
+% System (I/O)      :  2.77%
+Mem reserved        : 60000M/node
+Max Mem used        : 17.33M (c9-75)
+Max Disk Write      : 3.48G (c9-75)
+Max Disk Read       : 3.53G (c9-75)

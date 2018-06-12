@@ -1,0 +1,30 @@
+==========================================
+SLURM_JOB_ID = 20646039
+SLURM_NODELIST = c9-75
+==========================================
+Module slurm/17.11.5 loaded 
+Module openmpi/3.0.1 loaded 
+Module gcc/7.3.0 loaded 
+slurmstepd: error: *** JOB 20646039 ON c9-75 CANCELLED AT 2018-06-07T22:15:53 ***
+
+===========================================================================
+Job Finished
+
+Name                : chr1sub
+User                : eoziolor
+Partition           : med
+Nodes               : c9-75
+Cores               : 16
+State               : CANCELLED,CANCELLED by 1391591
+Submit              : 2018-06-07T21:59:00
+Start               : 2018-06-07T21:59:01
+End                 : 2018-06-07T22:15:53
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:16:52
+Used CPU time       :   00:13:33
+% User (Computation): 92.10%
+% System (I/O)      :  7.90%
+Mem reserved        : 60000M/node
+Max Mem used        : 6.98M (c9-75)
+Max Disk Write      : 103.05G (c9-75)
+Max Disk Read       : 120.93G (c9-75)

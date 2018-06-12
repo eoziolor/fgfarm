@@ -1,0 +1,51 @@
+==========================================
+SLURM_JOB_ID = 20799748
+SLURM_NODELIST = c8-77
+==========================================
+Module slurm/17.11.5 loaded 
+Module openmpi/3.0.1 loaded 
+Module gcc/7.3.0 loaded 
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr1_short.vcf.bgz
+	--maf 0.01
+	--max-alleles 2
+	--max-meanDP 0.73
+	--min-alleles 2
+	--min-meanDP 0.17
+	--minQ 100
+	--recode
+	--remove-filtered-all
+	--stdout
+
+Using zlib version: 1.2.8
+After filtering, kept 576 out of 576 Individuals
+Outputting VCF file...
+After filtering, kept 0 out of a possible 2124018 Sites
+No data left for analysis!
+Run Time = 54.00 seconds
+
+===========================================================================
+Job Finished
+
+Name                : filter
+User                : eoziolor
+Partition           : med
+Nodes               : c8-77
+Cores               : 16
+State               : COMPLETED
+Submit              : 2018-06-12T09:32:01
+Start               : 2018-06-12T09:32:02
+End                 : 2018-06-12T09:32:56
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:54
+Used CPU time       :   00:00:51
+% User (Computation): 98.79%
+% System (I/O)      :  1.21%
+Mem reserved        : 60000M/node
+Max Mem used        : 8.76M (c8-77)
+Max Disk Write      : 10.24K (c8-77)
+Max Disk Read       : 324.24M (c8-77)
