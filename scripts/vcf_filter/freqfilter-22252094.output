@@ -1,0 +1,42 @@
+==========================================
+SLURM_JOB_ID = 22252094
+SLURM_NODELIST = c8-70
+==========================================
+Module slurm/17.11.5 loaded 
+Module openmpi/3.0.1 loaded 
+Module gcc/7.3.0 loaded 
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--freq
+	--out chr10_freqs
+
+Using zlib version: 1.2.8
+After filtering, kept 576 out of 576 Individuals
+Outputting Frequency Statistics...
+slurmstepd: error: *** JOB 22252094 ON c8-70 CANCELLED AT 2018-06-28T10:52:08 ***
+
+===========================================================================
+Job Finished
+
+Name                : freqfilter
+User                : eoziolor
+Partition           : med
+Nodes               : c8-70
+Cores               : 16
+State               : CANCELLED,CANCELLED by 1391591
+Submit              : 2018-06-28T10:42:42
+Start               : 2018-06-28T10:42:43
+End                 : 2018-06-28T10:52:08
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:09:25
+Used CPU time       :   00:08:57
+% User (Computation): 99.99%
+% System (I/O)      :  0.01%
+Mem reserved        : 60000M/node
+Max Mem used        : 16.15M (c8-70)
+Max Disk Write      : 76.87M (c8-70)
+Max Disk Read       : 341.23M (c8-70)

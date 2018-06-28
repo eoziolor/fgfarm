@@ -1,0 +1,33 @@
+==========================================
+SLURM_JOB_ID = 22250155
+SLURM_NODELIST = c9-93
+==========================================
+Module slurm/17.11.5 loaded 
+Module openmpi/3.0.1 loaded 
+Module gcc/7.3.0 loaded 
+
+
+Error: Only one output function may be called.
+
+
+===========================================================================
+Job Finished
+
+Name                : freqfilter
+User                : eoziolor
+Partition           : med
+Nodes               : c9-93
+Cores               : 16
+State               : COMPLETED
+Submit              : 2018-06-28T10:30:27
+Start               : 2018-06-28T10:31:29
+End                 : 2018-06-28T10:31:31
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:02
+Used CPU time       : --
+% User (Computation): 76.47%
+% System (I/O)      : 23.53%
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  (c9-93)
+Max Disk Write      : 0.00  (c9-93)
+Max Disk Read       : 0.00  (c9-93)

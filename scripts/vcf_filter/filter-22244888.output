@@ -21,3 +21,27 @@ Parameters as interpreted:
 Using zlib version: 1.2.8
 After filtering, kept 576 out of 576 Individuals
 Outputting VCF file...
+After filtering, kept 1988557 out of a possible 2490362 Sites
+Run Time = 2714.00 seconds
+
+===========================================================================
+Job Finished
+
+Name                : filter
+User                : eoziolor
+Partition           : med
+Nodes               : c8-71
+Cores               : 16
+State               : COMPLETED
+Submit              : 2018-06-28T09:29:33
+Start               : 2018-06-28T09:29:33
+End                 : 2018-06-28T10:14:48
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:45:15
+Used CPU time       :   00:49:55
+% User (Computation): 98.88%
+% System (I/O)      :  1.12%
+Mem reserved        : 60000M/node
+Max Mem used        : 17.98M (c8-71)
+Max Disk Write      : 9.75G (c8-71)
+Max Disk Read       : 10.04G (c8-71)

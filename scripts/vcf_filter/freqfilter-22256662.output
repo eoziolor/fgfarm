@@ -1,0 +1,119 @@
+==========================================
+SLURM_JOB_ID = 22256662
+SLURM_NODELIST = c11-73
+==========================================
+Module slurm/17.11.5 loaded 
+Module openmpi/3.0.1 loaded 
+Module gcc/7.3.0 loaded 
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--keep /home/eoziolor/fgran/data/varcall/pops/.txt
+	--freq
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.
+
+Using zlib version: 1.2.8
+Keeping individuals in 'keep' list
+Error: Could not open Individual file:/home/eoziolor/fgran/data/varcall/pops/.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--keep /home/eoziolor/fgran/data/varcall/pops/.txt
+	--freq
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.
+
+Using zlib version: 1.2.8
+Keeping individuals in 'keep' list
+Error: Could not open Individual file:/home/eoziolor/fgran/data/varcall/pops/.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--keep /home/eoziolor/fgran/data/varcall/pops/.txt
+	--freq
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.
+
+Using zlib version: 1.2.8
+Keeping individuals in 'keep' list
+Error: Could not open Individual file:/home/eoziolor/fgran/data/varcall/pops/.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--keep /home/eoziolor/fgran/data/varcall/pops/.txt
+	--freq
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.
+
+Using zlib version: 1.2.8
+Keeping individuals in 'keep' list
+Error: Could not open Individual file:/home/eoziolor/fgran/data/varcall/pops/.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--keep /home/eoziolor/fgran/data/varcall/pops/.txt
+	--freq
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.
+
+Using zlib version: 1.2.8
+Keeping individuals in 'keep' list
+Error: Could not open Individual file:/home/eoziolor/fgran/data/varcall/pops/.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--keep /home/eoziolor/fgran/data/varcall/pops/.txt
+	--freq
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.
+
+Using zlib version: 1.2.8
+Keeping individuals in 'keep' list
+Error: Could not open Individual file:/home/eoziolor/fgran/data/varcall/pops/.txt
+
+===========================================================================
+Job Finished
+
+Name                : freqfilter
+User                : eoziolor
+Partition           : med
+Nodes               : c11-73
+Cores               : 16
+State               : FAILED
+Submit              : 2018-06-28T11:34:16
+Start               : 2018-06-28T13:02:12
+End                 : 2018-06-28T13:02:13
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:00:01
+Used CPU time       : --
+% User (Computation): 89.17%
+% System (I/O)      : 10.83%
+Mem reserved        : 60000M/node
+Max Mem used        : 0.00  (c11-73)
+Max Disk Write      : 0.00  (c11-73)
+Max Disk Read       : 0.00  (c11-73)

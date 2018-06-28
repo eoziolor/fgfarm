@@ -1,6 +1,6 @@
 ==========================================
-SLURM_JOB_ID = 22167380
-SLURM_NODELIST = c11-72
+SLURM_JOB_ID = 22270221
+SLURM_NODELIST = c9-92
 ==========================================
 Module slurm/17.11.5 loaded 
 Module openmpi/3.0.1 loaded 
@@ -9,21 +9,21 @@ Module gcc/7.3.0 loaded
 ===========================================================================
 Job Finished
 
-Name                : chr1sub
+Name                : c10vcf
 User                : eoziolor
 Partition           : med
-Nodes               : c11-72
-Cores               : 16
-State               : CANCELLED by 1391591
-Submit              : 2018-06-27T16:07:50
-Start               : 2018-06-27T16:17:03
-End                 : 2018-06-28T14:30:36
-Reserved walltime   : 1-00:00:00
-Used walltime       :   22:13:33
+Nodes               : c9-92
+Cores               : 8
+State               : RUNNING
+Submit              : 2018-06-28T14:19:43
+Start               : 2018-06-28T14:29:07
+End                 : --
+Reserved walltime   : 02:00:00
+Used walltime       : 00:06:48
 Used CPU time       : --
 % User (Computation): --
 % System (I/O)      : --
-Mem reserved        : 60000M/node
+Mem reserved        : 30000M/node
 Max Mem used        : 0.00  ()
 Max Disk Write      : 0.00  ()
 Max Disk Read       : 0.00  ()

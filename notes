@@ -54,3 +54,11 @@ cat \
 bgzip > chr1.vcf.bgz
 
 /home/eoziolor/program/vcflib/bin/vcfallelicprimitives chr10.vcf.bgz | bgzip > chr10_biallelic.vcf.bgz
+
+--------------------------------------------------------------------------------
+
+6-28-18
+
+filtered biallelic sites with vcftools (find in vcf_filter)
+
+Now need to create list of individuals in each population (done in vcf_filter/lists.sh)
