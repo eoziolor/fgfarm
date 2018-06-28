@@ -36,21 +36,15 @@ gzip >chr10.txt.gz
 
 header of hetgrand.vcf.gz will have two less fields because it doesn't have chromosome positoin, remove scaffolds from the chr10
 
-cat \
-<(zcat head.vcf.gz | grep "##") \
+paste \
+<(zcat chr10.txt.gz | cut -f 1-2,5-576) \
 <(cat header.txt) \
-<(zcat chr10.txt.gz | cut -f 1-2,5-587) \
-<(cat header.txt) |\
+<(zcat head.vcf.gz | grep "##" |\
 bgzip > chr10.vcf.bgz
 
 
 repeat for chromosome 1 that you fucked up!
 
-cat \
-<(zcat head.vcf.gz | grep "##") \
-<(cat header.txt) \
-<(zcat chr1.txt.gz | cut -f 1-2,5-587) \
-<(cat header.txt) |\
-bgzip > chr1.vcf.bgz
+tabix -p vcf chr10.vcf.bgz
 
-/home/eoziolor/program/vcflib/bin/vcfallelicprimitives chr10.vcf.bgz | bgzip > chr10_biallelic.vcf.bgz
+/home/eoziolor/program/vcflib/bin/vcfallelicprimitives

@@ -1,0 +1,7 @@
+==========================================
+SLURM_JOB_ID = 22167380
+SLURM_NODELIST = c11-72
+==========================================
+Module slurm/17.11.5 loaded 
+Module openmpi/3.0.1 loaded 
+Module gcc/7.3.0 loaded 

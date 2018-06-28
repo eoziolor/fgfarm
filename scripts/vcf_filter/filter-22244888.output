@@ -1,0 +1,23 @@
+==========================================
+SLURM_JOB_ID = 22244888
+SLURM_NODELIST = c8-71
+==========================================
+Module slurm/17.11.5 loaded 
+Module openmpi/3.0.1 loaded 
+Module gcc/7.3.0 loaded 
+
+VCFtools - v0.1.13
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_biallelic.vcf.bgz
+	--max-alleles 2
+	--min-alleles 2
+	--minQ 100
+	--recode
+	--remove-filtered-all
+	--stdout
+
+Using zlib version: 1.2.8
+After filtering, kept 576 out of 576 Individuals
+Outputting VCF file...
