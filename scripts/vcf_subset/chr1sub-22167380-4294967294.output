@@ -27,3 +27,4 @@ Mem reserved        : 60000M/node
 Max Mem used        : 0.00  ()
 Max Disk Write      : 0.00  ()
 Max Disk Read       : 0.00  ()
+slurmstepd: error: *** JOB 22167380 ON c11-72 CANCELLED AT 2018-06-28T14:30:36 ***

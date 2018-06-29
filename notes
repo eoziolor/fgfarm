@@ -62,3 +62,9 @@ bgzip > chr1.vcf.bgz
 filtered biallelic sites with vcftools (find in vcf_filter)
 
 Now need to create list of individuals in each population (done in vcf_filter/lists.sh)
+
+started creating allele frequencies using (vcf_filter/freqfilter_chr10.sh)
+
+Created a file with only the introgressed region (intro_hapl/makevcf_chr10.sh)
+
+Breaking it down to only the 4 pops needed (BB,VB,PB,SP) with (intro_hapl/smallvcf_chr10_intr.sh)
