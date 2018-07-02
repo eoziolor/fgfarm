@@ -12,9 +12,9 @@
 my_vcftools=/home/eoziolor/program/vcftools/bin/vcftools
 
 
-my_varcall=/home/eoziolor/fgran/data/varcall/chr10_biallelic.vcf.bgz
+my_varcall=/home/eoziolor/fgran/data/varcall/chr10.vcf.bgz
 outdir=/home/eoziolor/fgran/data/varcall
-outfile=chr10_filtered.vcf.bgz
+outfile=chr10_filtered_060218.vcf.bgz
 
 $my_vcftools --gzvcf $my_varcall \
 --minQ 100 \

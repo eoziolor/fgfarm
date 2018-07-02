@@ -1,6 +1,6 @@
 ==========================================
-SLURM_JOB_ID = 22274643
-SLURM_NODELIST = c11-87
+SLURM_JOB_ID = 22756415
+SLURM_NODELIST = c11-94
 ==========================================
 Module slurm/17.11.5 loaded 
 Module openmpi/3.0.1 loaded 
@@ -10,97 +10,97 @@ VCFtools - v0.1.13
 (C) Adam Auton and Anthony Marcketta 2009
 
 Parameters as interpreted:
-	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered_060218.vcf.bgz
 	--keep /home/eoziolor/fgran/data/varcall/pops/VB.txt
 	--freq
-	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.VB
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs_060218.VB
 
 Using zlib version: 1.2.8
 Keeping individuals in 'keep' list
 After filtering, kept 49 out of 576 Individuals
 Outputting Frequency Statistics...
-After filtering, kept 1988557 out of a possible 1988557 Sites
-Run Time = 374.00 seconds
+After filtering, kept 1144053 out of a possible 1144053 Sites
+Run Time = 307.00 seconds
 
 VCFtools - v0.1.13
 (C) Adam Auton and Anthony Marcketta 2009
 
 Parameters as interpreted:
-	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered_060218.vcf.bgz
 	--keep /home/eoziolor/fgran/data/varcall/pops/SP.txt
 	--freq
-	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.SP
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs_060218.SP
 
 Using zlib version: 1.2.8
 Keeping individuals in 'keep' list
-After filtering, kept 72 out of 576 Individuals
+After filtering, kept 48 out of 576 Individuals
 Outputting Frequency Statistics...
-After filtering, kept 1988557 out of a possible 1988557 Sites
-Run Time = 364.00 seconds
+After filtering, kept 1144053 out of a possible 1144053 Sites
+Run Time = 288.00 seconds
 
 VCFtools - v0.1.13
 (C) Adam Auton and Anthony Marcketta 2009
 
 Parameters as interpreted:
-	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered_060218.vcf.bgz
 	--keep /home/eoziolor/fgran/data/varcall/pops/ER.txt
 	--freq
-	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.ER
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs_060218.ER
 
 Using zlib version: 1.2.8
 Keeping individuals in 'keep' list
 After filtering, kept 49 out of 576 Individuals
 Outputting Frequency Statistics...
-After filtering, kept 1988557 out of a possible 1988557 Sites
-Run Time = 371.00 seconds
+After filtering, kept 1144053 out of a possible 1144053 Sites
+Run Time = 292.00 seconds
 
 VCFtools - v0.1.13
 (C) Adam Auton and Anthony Marcketta 2009
 
 Parameters as interpreted:
-	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered_060218.vcf.bgz
 	--keep /home/eoziolor/fgran/data/varcall/pops/KC.txt
 	--freq
-	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.KC
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs_060218.KC
 
 Using zlib version: 1.2.8
 Keeping individuals in 'keep' list
 After filtering, kept 47 out of 576 Individuals
 Outputting Frequency Statistics...
-After filtering, kept 1988557 out of a possible 1988557 Sites
-Run Time = 421.00 seconds
+After filtering, kept 1144053 out of a possible 1144053 Sites
+Run Time = 289.00 seconds
 
 VCFtools - v0.1.13
 (C) Adam Auton and Anthony Marcketta 2009
 
 Parameters as interpreted:
-	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered_060218.vcf.bgz
 	--keep /home/eoziolor/fgran/data/varcall/pops/F.txt
 	--freq
-	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.F
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs_060218.F
 
 Using zlib version: 1.2.8
 Keeping individuals in 'keep' list
 After filtering, kept 49 out of 576 Individuals
 Outputting Frequency Statistics...
-After filtering, kept 1988557 out of a possible 1988557 Sites
-Run Time = 374.00 seconds
+After filtering, kept 1144053 out of a possible 1144053 Sites
+Run Time = 303.00 seconds
 
 VCFtools - v0.1.13
 (C) Adam Auton and Anthony Marcketta 2009
 
 Parameters as interpreted:
-	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered.vcf.bgz
+	--gzvcf /home/eoziolor/fgran/data/varcall/chr10_filtered_060218.vcf.bgz
 	--keep /home/eoziolor/fgran/data/varcall/pops/BP.txt
 	--freq
-	--out /home/eoziolor/fgran/data/varcall/chr10_freqs.BP
+	--out /home/eoziolor/fgran/data/varcall/chr10_freqs_060218.BP
 
 Using zlib version: 1.2.8
 Keeping individuals in 'keep' list
 After filtering, kept 50 out of 576 Individuals
 Outputting Frequency Statistics...
-After filtering, kept 1988557 out of a possible 1988557 Sites
-Run Time = 375.00 seconds
+After filtering, kept 1144053 out of a possible 1144053 Sites
+Run Time = 292.00 seconds
 
 ===========================================================================
 Job Finished
@@ -108,18 +108,18 @@ Job Finished
 Name                : freqfilter
 User                : eoziolor
 Partition           : med
-Nodes               : c11-87
+Nodes               : c11-94
 Cores               : 8
 State               : COMPLETED
-Submit              : 2018-06-28T15:17:54
-Start               : 2018-06-28T16:21:58
-End                 : 2018-06-28T16:59:58
+Submit              : 2018-07-02T16:10:15
+Start               : 2018-07-02T16:10:15
+End                 : 2018-07-02T16:39:46
 Reserved walltime   : 1-00:00:00
-Used walltime       :   00:38:00
-Used CPU time       :   00:37:56
+Used walltime       :   00:29:31
+Used CPU time       :   00:29:29
 % User (Computation): 99.95%
 % System (I/O)      :  0.05%
 Mem reserved        : 30000M/node
-Max Mem used        : 16.48M (c11-87)
-Max Disk Write      : 378.02M (c11-87)
-Max Disk Read       : 2.08G (c11-87)
+Max Mem used        : 16.57M (c11-94)
+Max Disk Write      : 225.27M (c11-94)
+Max Disk Read       : 1.59G (c11-94)

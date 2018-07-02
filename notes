@@ -68,3 +68,5 @@ started creating allele frequencies using (vcf_filter/freqfilter_chr10.sh)
 Created a file with only the introgressed region (intro_hapl/makevcf_chr10.sh)
 
 Breaking it down to only the 4 pops needed (BB,VB,PB,SP) with (intro_hapl/smallvcf_chr10_intr.sh)
+
+For speed for now just break it down to 2 pops (VB and SP) because that's the ones considered (intro_hapl/verysmallvcf_chr10_intr.sh)
